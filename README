@@ -1,0 +1,7 @@
+Instructions to use the Makefile:
+
+1. Open Makefile
+2. Change the username to your own last name
+3. Build report by using command 'make'
+
+That's all
