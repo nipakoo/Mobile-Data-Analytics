@@ -77,17 +77,28 @@ All these different kinds of clouds, or more precisely combining them, also mean
 \par
 Cloudlet and mobile device solutions also contain additional challenges due to mobile devices moving constantly along with their users. Some of the great benefits of these approaches are saving energy and radio access bandwidth by using bluetooth for example. Transmitting the results of offloaded computation while it is still possible, before the device that issued the task moves out of range is essential. How to know make sure this happens is a great challenge for application designers[3]. Losing all the results of offloaded computation right before it's finished can result in much worse processing time, compared to not distributing computing at all. One way to solve this problem is location based offloading[4]. Of course querying users' location adds to the computational needs so it would have to be used sparingly. This is again one problem that could use a powerful artificial intelligence to be solved.
 
-\section{Radio Access Network Improvements}
-Section text here.
-
-\subsection{Decreased Latency}
-Subsubsection text here.
-
-\subsection{Increased Data Rates}
-Subsubsection text here.
-
-\subsection{Cloud Radio Access Network}
-Subsubsection text here.
+\section{Upcoming Radio Access Networks}
+Fifth generation mobile communication technology is to be released for consumer use in 2020. There are numerous important and really challenging qualities that are required to be met before the next generation cellular communications techology can be released. 5g standards are yet to be created. Still, many expectations have already been visioned.
+\par
+Gohil et al. [6] offer their views on what will and should be included in next generation radio access networks. This paper seems like an early review of peoples opinions rather than evidence based research as to what 5g will really be but it offers a good glance at the subject. Some of the technical qualities highlighted in the paper include seamless cooperation of different radio access technologies, combining cellular and ip connectivity and new protocol stack architecture which all sound interesting and powerful concepts. They also list some practical features associated with 5g. Advanced billing interfaces, large data rates, better consistency and reduced latency are some of these.
+\par
+Andrews et al. [7] offer similar but more recent and in my opinion much more accurate description of the fifth generation of cellular networking. Requirements set for 5g are described pretty accurately in the paper. They include areas of data rate, latency and energy and cost efficiency. It is also stated that while great challenged to be achieved, all of the goals don't necessarily have to work in practise at the same time. Example is given that streaming high-definition video needs the high data rates but can do with a higher latency. Then again the situation is reversed for driverless cars, low latency is crucial but data rates can be lower. Coming of internet of things also suggests a need for supporting huge amounts of connections from really heterogenous device base. Low rate device-to-device connections functioning side by side with high rate mobile user connections require a new approach to mobile core management and control functions.
+\par
+Three clear requirements are set for the future data rates.
+\begin{itemize}[noitemsep]
+\item Data rates should be increased by approximately thousand times for each area unit.
+\item The worst reasonably expectable user data rate should range from 100 Mbps to 1 Gbps. At the moment this value is around 1Mbps so the advance must be at least hundred fold.
+\item Best possible rate, while mostly a marketing number, should also be increased greatly, to tens of gigabits per second.
+\end{itemize}
+\par
+Fourth generation radio access networks offer roundtrip latencies of around 15 ms. It is stated that current applications can tolerate this well but some of the applications visioned for the era of 5g networks need faster response times. Roundtrip latency of around 1ms should be delivered.
+\par
+It would obviously be ideal to reduce energy and financial costs but it is stated that this isn't on the top of requirements of 5g. It is, however, required that the costs wouldn't rise. In practise this means that as data rates are increased by for example a factor of hundred, energy and monetary cost per bit should be reduced to one percent of the current cost to keep the overall cost constant.
+\par
+The paper lists ultra-densification, mmWave and massive multiple-input multiple-output (MIMO) along with virtualization as the defining factors of future radio access networks. The combination of these approaches are seen as the keys to provide ubiquous, high-rate, low-latency connections to all mobile users.
+\par
+Densification means simply making cells served by a radio access node smaller. This approach has been used in previous radio access improvements and ultra-densification just means taking it to yet another level. The most important benefit of this approach is that spectrum reserved by a user connection via a basestation accommodates a smaller area. In other words, smaller coverage area per basestation means less users connecting via that particular basestation. Obviously this means that there are more basestation resources available for each user. This approach doesn't come without downsides. Some of the associated challenges listed are supporting mobility between cells and increased costs of installing and maintaining all the basestations.
+\par
 
 \section{Effects of Improved Radio Access Networks}
 Section text here.
@@ -111,6 +122,12 @@ G. Chatzimilioudis, A. Konstantinidis, C. Laoudias and D. Zeinalipour-Yazti, \em
 
 \bibitem{MCC:satyanarayanan}
 M. Satyanarayanan, P. Bahl, R. Caceres and N. Davies, \emph{The Case for VM-Based Cloudlets in Mobile Computing}. \hskip 1em plus 0.5em minus 0.4em\relax IEEE Pervasive Computing Volume 8 Issue 4, October 2009 
+
+\bibitem{MCC:gohil}
+A. Gohil, H. Modi and S. K. Patel, \emph{5G Technology of Mobile Communication: A Survey}. \hskip 1em plus 0.5em minus 0.4em\relax Intelligent Systems and Signal Processing (ISSP) International Conference, 2013
+
+\bibitem{MCC:andrews}
+J. G. Andrews, S. Buzzi, W. Choi, S. V. Hanly, A. Lozano, A. C. K. Soong and J. C. Zhang, \emph{What Will 5G Be?}. \hskip 1em plus 0.5em minus 0.4em\relax IEEE Journal on Selected Areas in Communications Volume 32 Issue 6, June 2014
 
 \end{thebibliography}
 
