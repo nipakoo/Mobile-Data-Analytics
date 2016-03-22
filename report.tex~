@@ -96,7 +96,7 @@ At the moment mobile networks are using the fourth generation techology, LTE. In
 \par
 Radio access network consist of the devices that interact with user equipment. Basestations are included in this category as they communicate with the edge devices and propagate the inbound and outbound data. In essence, huge grid of quite small areas is formed in order to cover all areas.
 \par
-Core networks are service providers' management devices that offer different kinds of services to customers connected to their access network. Core network functions for example as an operations and maintenance node and controls mobile call routing. 
+Core networks are service providers' management devices that offer different kinds of services to customers connected to their access network. Core network functions for example as an operations and maintenance node and controls mobile call routing. Core networks are often owned by a signle large provider. It is then connected to the public network.
 \subsection{Requirements of Fifth Generation Mobile Networking}
 Fifth generation mobile communication technology is to be released for consumer use in 2020. There are numerous important and really challenging qualities that are required to be met before the next generation cellular communications techology can be released. 5g standards are yet to be created although the work on them should start fairly soon (http://www.ericsson.com/research-blog/lte/release-14-the-start-of-5g-standardization/). Still, many expectations have already been visioned.
 \par
